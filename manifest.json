@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "GPT Unlock Plus Extension",
+    "version": "1.2.3",
+    "description": "GPT Unlock Plus Extension is an extension built and developed by OpenFXT. It is used to turn the user's free GPT account into a true (temporary) GPT Plus account.",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "128": "logo_extension.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
